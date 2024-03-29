@@ -16,6 +16,7 @@ Diversas utilidades na programação, dentre elas:
 
 ## Modificadores de Acesso
 > "Pre-req" para entender essa parte: [pacotes](pacotes.md)
+
 No Go, as funções podem ser privadas ou públicas. 
 Em diversas linguagens, definimos esses modificadores de acesso através de palavras reservadas como `public`, `private` e `protected`. 
 Porém, o Golang faz isso de uma forma sutil, através da primeira letra do nome da função:
