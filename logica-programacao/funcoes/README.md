@@ -15,7 +15,7 @@ Diversas utilidades na programação, dentre elas:
 > :bulb: É essencial dar **nomes descritivos** às funções, para que fique clara a intenção do código para quem o lê
 
 ## Modificadores de Acesso
-> "Pre-req" para entender essa parte: [pacotes](pacotes.md)
+> "Pre-req" para entender essa parte: [pacotes](../pacotes.md)
 
 No Go, as funções podem ser privadas ou públicas. 
 Em diversas linguagens, definimos esses modificadores de acesso através de palavras reservadas como `public`, `private` e `protected`. 
