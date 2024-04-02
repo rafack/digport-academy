@@ -22,8 +22,12 @@ Para isso, usa a palavra `require`.
 Exemplo:
 Quero verificar se um CPF é válido. Para isso, posso utilizar um pacote que já faz isso, pesquisando em [pkg.go.dev](https://pkg.go.dev/).
 Encontrei esse pacote `github.com/Nhanderu/brdoc` e vi que ele tem o que preciso.
-➡️ No diretório do meu projeto (onde está localizado o `go.mod`), rodo o comando `go get github.com/Nhanderu/brdoc` para instalar esse pacote e poder utilizá-lo
+
+➡️ Para instalar esse pacote e poder utilizá-lo, rodo o seguinte comando no diretório do meu projeto (onde está localizado o `go.mod`):
+```shell
+go get github.com/Nhanderu/brdoc
+```
 
 Isso faz com que esse pacote se torne uma **dependência** do projeto. Então, quando olhamos para o `go.mod`, vemos que agora ele contém `require github.com/Nhanderu/brdoc v1.1.2`, deixando explícita essa dependência, bem como a versão do pacote "brdoc" estamos utilizando no projeto (quando não especificada, `go get` instala a mais recente).
 
-A importância disso é garantir que se tenha exatamente as versões corretas das dependências, evitando que versões incompatíveis de bibliotecas causem conflitos e erros (uma parte do código/uma função pode se comportar de uma certa maneira na versão 1.0.0 do pacote mas na versão 2.0.0 ter um comportamento diferente, que pode causar problemas no nosso projeto).
+A importância disso é garantir que se tenha exatamente as versões corretas das dependências, evitando que versões incompatíveis de bibliotecas causem conflitos e erros (uma parte do código/uma função pode se comportar de uma certa maneira na versão 1.0.0 do pacote mas na versão 2.0.0 ter um comportamento diferente, o que pode causar problemas no nosso projeto).
