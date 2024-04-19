@@ -1,6 +1,6 @@
 # Tema da aula 6: Busca de Produtos por Nome
 
-No mesmo arquivo onde está a função para criar a lista de produtos, crie uma nova função para *buscar um produto por nome**.
+No mesmo arquivo onde está a função para criar a lista de produtos, crie uma nova função para **buscar um produto por nome**.
 
 Assim como a função para criar a lista de produtos, essa também retorna uma lista de produtos.
 
