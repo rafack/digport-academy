@@ -19,7 +19,7 @@ criar a tabela de produtos:
 
 ```sql
 create table produtos (
-id varchar,
+id varchar primary key,
 nome varchar,
 preco  float8,
 descricao varchar,
