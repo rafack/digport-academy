@@ -21,3 +21,15 @@ Desenvolva um programa para calcular o total de gastos mensais.
 1. Crie variáveis para armazenar os gastos fixos (ex: `aluguel`, `internet`, `transporte`).
 2. Calcule o total de gastos somando todas as variáveis.
 3. Use uma condicional para verificar se o total de gastos excede um determinado orçamento (ex: R$2.000) e imprima uma mensagem apropriada.
+
+## Aula 4: Arrays, Slices, Structs, Map
+
+### Exercício 5: Lista de Contatos 
+
+**Descrição:** Crie um programa para gerenciar uma lista de contatos.
+
+**Passos:**
+1. Defina um `struct` para representar um contato, com campos para `nome`, `telefone` e `email`.
+2. Crie um slice para armazenar múltiplos contatos.
+3. Adicione alguns contatos ao slice.
+4. Use um loop para imprimir todos os contatos na lista.
