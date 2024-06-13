@@ -10,9 +10,10 @@ Crie um programa para ajudar a planejar as finanças.
    A Tour of Go: https://go.dev/tour/moretypes/16 (Range)
    e https://go.dev/tour/moretypes/17 (continuação)
    
-   **Recomendação:** olhar o código do Tour of Go, ir digitando e testando
-3. Utilize condicionais para verificar se um item específico (ex: `condomínio`) está na lista e imprima uma mensagem apropriada. Receba esse item pelo teclado.
-4. Formate uma string para exibir uma mensagem com o total de itens na lista.
+   **Recomendação:** olhar o código do Tour of Go, ir digitando e testando, ver a especificação da linguagem https://go.dev/ref/spec e documentação https://go.dev/doc/
+    
+4. Utilize condicionais para verificar se um item específico (ex: `condomínio`) está na lista e imprima uma mensagem apropriada. Receba esse item pelo teclado.
+5. Formate uma string para exibir uma mensagem com o total de itens na lista.
 
 ### Exercício - Controle de Gastos
 Desenvolva um programa para calcular o total de gastos mensais.
