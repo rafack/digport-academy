@@ -48,3 +48,4 @@ Desenvolva um programa para calcular o total de gastos mensais.
 1. Defina um `slice` e adicione uma `struct` de contatos
 2. Crie um método http que liste os contatos previamente criados
 3. Para a definição de rotas, sugestão usar gorilla mux: https://aprendagolang.com.br/implementando-uma-api-com-gorilla-mux/ . Para baixar a lib use o comando no terminal: go get -u github.com/gorilla/mux .
+4. Faça a chamada de end point para listar os contatos e imprima em formato json a resposta, use a ferramenta Bruno https://www.usebruno.com/
