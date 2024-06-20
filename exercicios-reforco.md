@@ -38,7 +38,7 @@ Desenvolva um programa para calcular o total de gastos mensais.
 ### Exercício 6: Map de Contatos 
 1. Crie um map com a chave `string` nome e o value com uma `struct` de contatos
 2. Informe um contato usando a função scan, e verifique se o contato existe no map criado
-3. Imprima os detalhes do contato encontrado, caso não encontrado imprima informando que o contato de "nome" informado não foi encontrado.
+3. Imprima os detalhes do contato encontrado, caso não encontrado imprima informando que o contato de "nome" não foi encontrado.
 
 ## Aula 5: Git, Go Module, HTTP e API
 
