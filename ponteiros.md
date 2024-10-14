@@ -17,8 +17,8 @@ Na `main.go`:
 
 ```go
 func main() {
-	// db.InitDB()
-	// StartServer()
+  // db.InitDB()
+  // StartServer()
 
   prod := model.Produto{Nome: "Meia", Preco: 17.99}
   fmt.Println("Preço:", prod.Preco)
@@ -106,6 +106,8 @@ Código após alterações: https://go.dev/play/p/jx9SnkYOLO5
 <br>
 Outro exemplo: https://go.dev/play/p/r92c2Ylyzcu
 
-Usa-se `*` antes do ponteiro para obter o valor para o qual o ponteiro aponta.
+Usa-se `*` antes do ponteiro para obter o valor para o qual o ponteiro aponta. Na função `fazerAniversario` agora estamos criando uma variável chamada `novaIdade` (inteiro) e atribuindo a ela o valor para o qual o ponteiro `i` aponta. Em seguida, aumentamos em 1 a idade. 
 
-E para atribuir um novo valor ao ponteiro, usa-se `*` na frente da variável do tipo ponteiro (nesse exemplo, `i` 
+E para atribuir um novo valor ao ponteiro, usa-se `*` na frente da variável do tipo ponteiro (nesse exemplo, `i`): `*i = novaIdade`.
+
+Código após as alterações: https://go.dev/play/p/jrl2MfDPsza
