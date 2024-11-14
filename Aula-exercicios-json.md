@@ -23,7 +23,7 @@ go mod tidy
 ## Exercicios
 
 1) Ler o arquivo json e atribuir a struts de bookstore
-2) criar um slice de books
+2) Criar um slice de books
 3) Ordenar os books por titulo
 4) Ordenar os books pelo menor preco
 5) Pegar apenas os books com rating 5
